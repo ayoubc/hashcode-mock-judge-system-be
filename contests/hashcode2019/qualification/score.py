@@ -30,7 +30,7 @@ def read_output_file(file, photos):
     return slides
 
 
-def get_score(file, key):
+def get_score(key, file):
     photos = read_input_file(key)
     slides = read_output_file(file, photos)
     n = len(slides)
